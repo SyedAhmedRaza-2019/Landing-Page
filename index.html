@@ -7,6 +7,25 @@
    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-   
+   <section class=""> <!-- class:container -->
+      <div class="absolute top-0 left-0 flex justify-between items-center w-full px-[50px] z-10">  <!-- class:head -->
+         <img src="./Assets/Images/logo.png" alt="Logo" class="w-[13%]">
+         <a href="#" class="text-white bg-[#e50914] py-[8px] px-[18px] rounded-[5px] ">Sign up</a>
+      </div>
+   </section>
+   <section class="w-full h-screen relative flex justify-center items-center before:[content:''] before:absolute before:top-0 before:left-0 before:w-full before:h-[400px] before:z-[1] before:bg-[linear-gradient(to_bottom,#000,transparent)] after:[content:''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[400px] after:z-[1] after:bg-[linear-gradient(to_top,#000,transparent)]"> <!-- class:banner -->
+      <img src="./Assets/Images/background.jpg" alt="background" class="w-full h-full absolute top-0 left-0 object-cover "> <!-- class:fit -->
+      <div class="absolute top-[55%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 z-10"> <!-- class:box -->
+         <div class="flex flex-col justify-center items-center text-center"> <!-- class:heading -->
+            <h2 class="text-[3.125rem] text-white tracking-[2px] w-4/5 font-bold">Unlimited movies, TV shows, and more.</h2>
+            <h5 class="text-[1.625rem] text-white font-normal py-[1rem]">Watch anywhere. Cancel anytime.</h5>
+            <p class="1.2rem font-medium text-white pt-[15px] pb-[20px]">Ready to watch? Enter your email to create or restart your membership.</p>
+         </div>
+         <div class="flex justify-center items-center "> <!-- class:Search -->
+            <input type="text" name="" placeholder="Enter Email" class="text-[16px] border-[1px] border-solid border-[#8c8c8c] focus:outline-none rounded-[2px] pt-[10px] px-[10px] min-w-[400px] h-[60px] items-center">
+            <a href="#" class="uppercase text-white font-normal tracking-[0.1px] rounded-[2px] bg-[#e50914] [box-shadow:0_1px_0_rgba(0,0,0,.45)] text-[1.625rem] leading-[60px] min-w-[310px] px-[30px]">Try 30 Days Free ></a>
+         </div>
+      </div>
+   </section>
 </body>
 </html>
